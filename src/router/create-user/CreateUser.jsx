@@ -3,6 +3,7 @@ import "./CreateUser.css";
 import axios from "axios";
 import Model from "../../components/model/Model"
 const URL = "https://674053eed0b59228b7ef9746.mockapi.io";
+import Loading from "../../components/loading/Loading"
 
 function CreateUser() {
   const [crud, setCrud] = useState(null);
@@ -24,7 +25,9 @@ function CreateUser() {
   }, []);
 
   if (!crud) {
-    return <div>Yuklanmoqda...</div>;
+    return <div className="load">
+      <Loading />
+    </div>
   }
 
   const handleSave = (updatedCard) => {
