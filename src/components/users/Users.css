@@ -1,0 +1,88 @@
+.users__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.users__card {
+    width: 280px;
+    padding: 20px;
+    box-shadow: 0 0 8px #0002, 15px 15px 15px #0001;
+    line-height: 1.6;
+    border-radius: 10px;
+}
+
+.users__card img {
+    width: 100%;
+}
+
+.users__card h2 {
+    color: dodgerblue;
+}
+
+.bottom_btn {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.users__card button {
+    padding: 6px 20px;
+    background: crimson;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.users__card button:hover {
+    opacity: .5;
+}
+
+.users__card button:active {
+    opacity: .7;
+}
+
+
+/* modal oyna */
+
+.modal_collection {
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.modal_collection button {
+    padding: 6px 20px;
+    background: crimson;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.modal_collection button:hover {
+    opacity: .5;
+}
+
+.modal_collection input {
+    width: 350px;
+    height: 40px;
+    border: 1px solid black;
+    padding: 2px 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.modal_collection select {
+    width: 350px;
+    height: 40px;
+    border: 1px solid black;
+    padding: 2px 10px;
+    border-radius: 10px;
+    outline: none;
+}
