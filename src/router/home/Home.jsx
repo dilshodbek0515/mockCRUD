@@ -4,7 +4,7 @@ import "./Home.css"
 function Home() {
   return (
     <div className='home'>
-      <h2>Redux Toolkit <br /> Amaliyot</h2>
+      <h2> Amaliyot</h2>
     </div>
   )
 }
